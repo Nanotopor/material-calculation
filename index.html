@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Material calculation</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--<div class="calculation_s">
+            <h3>Рассчитать площадь поверхности:</h3>
+            <input class="area" placeholder="L (длина)" type="number" required>
+            <input class="area" placeholder="W (ширина)" type="number" required>
+            <button type="button" id="button_s">Рассчитать</button>
+            <h2 class="result_s"></h2>
+        </div>-->
+        <div class="calculation_v">
+            <h3>Рассчитать объём:</h3>
+            <input class="val" placeholder="S (площадь)" type="number" required>
+            <input class="val" placeholder="H (толщина слоя)" type="number" required>
+            <button type="button" id="button_v">Рассчитать</button>
+            <h2 id="result_v"></h2>
+        </div>
+        <h3>Выбрать материал:</h3>
+        <div class="checkboxes">
+            <div>
+                <input type="checkbox" id="styazhka">
+                <label for="styazhka">Стяжка (цемент + песок + вода)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="styazhka-smes">
+                <label for="styazhka-smes">Стяжка (готовая смесь в мешках, кг)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="styazhka-samovir">
+                <label for="styazhka-samovir">Стяжка (самовыравнивающая смесь, кг)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="klei">
+                <label for="klei">Клей плиточный (готовая смесь в мешках, кг)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="start">
+                <label for="start">Шпатлёвка стартовая (готовая смесь в мешках, кг)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="finish">
+                <label for="finish">Шпатлёвка финишная (готовая смесь в мешках, кг)</label>
+            </div>
+            <h></h>
+        </div>
+
+        <script src = "script.js"></script>
+    </body>
+</html>
